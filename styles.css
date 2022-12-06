@@ -3,11 +3,16 @@ body {
     margin: 0;
 }
 
+/* Top Section with header, signup button and main image */
+
 .top {
     background-color: #202020;
     color: #E5E7EB;
     display: flex;
+    flex-shrink: 1;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -22,14 +27,25 @@ header {
     font-size: 18px;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 64px;
+    margin-top: 16px;
+
+
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
 }
 
 .signup {
     display: flex;
     justify-content: space-between;
     height: 350px;
-    margin: 50px 96px;
+    margin: 64px;
+    gap: 16px;
 }
 
 .signupleft {
@@ -46,15 +62,15 @@ header {
     opacity: 80%;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-    margin: 0px;
-    padding: 0px;
+/* Second section with "programs for any goal" and flexed icons */
+
+.goals {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .programs, .goals {
+    font-size: 48px;
     text-align: center;
     color: #202020;
 }
@@ -64,30 +80,68 @@ h1 {
     flex-grow: 1 1 auto;
     justify-content: space-evenly;
     margin: 16px;
+    font-size: 24px;
 }
 
 .imgsquare {
     border-style: solid;
     border-radius: 10%;
     border-color: #202020;
+    background-color: lightgrey;
     padding: 8px;
     height: 100px;
 
     align-items: center;
 }
 
+/* Third section with italic quote/testimonial and picture */
+
 .quote {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color:#E5E7EB;
+    justify-content: space-around;
     background-color: #202020;
+    color:#E5E7EB;
+
+    padding: 24px 10%;
 }
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.matt {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    margin-right: 64px;
+}
+
+.quote .matt p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+img.matt {
+    height: 250px;
+    border-radius: 50%;
+}
+
+
 
 .button {
     background-color: #3882F6;
     border-radius: 10%;  
     padding: 8px 16px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
 }
 
 ul {
