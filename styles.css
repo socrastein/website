@@ -29,7 +29,6 @@ header {
     align-items: center;
     margin-top: 16px;
 
-
 }
 
 .hero {
@@ -45,13 +44,15 @@ header {
     justify-content: space-between;
     height: 350px;
     margin: 64px;
-    gap: 16px;
+    gap: 32px;
+
 }
 
 .signupleft {
     flex-shrink: 1;
     min-width: 500px;
     width: 600px;
+
 }
 
 .topimg {
@@ -67,6 +68,8 @@ header {
 .goals {
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .programs, .goals {
@@ -77,17 +80,19 @@ header {
 
 .squares {
     display: flex;
-    flex-grow: 1 1 auto;
     justify-content: space-evenly;
-    margin: 16px;
     font-size: 24px;
+}
+
+.squares div {
+    width: 300px;
 }
 
 .imgsquare {
     border-style: solid;
     border-radius: 10%;
     border-color: #202020;
-    background-color: lightgrey;
+    background-color: lightsteelblue;
     padding: 8px;
     height: 100px;
 
@@ -104,7 +109,8 @@ header {
     background-color: #202020;
     color:#E5E7EB;
 
-    padding: 24px 10%;
+    padding: 24px 15%;
+
 }
 
 .quote p {
@@ -116,9 +122,10 @@ header {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
     font-size: 36px;
-    margin-right: 64px;
+    margin-right: 48px;
 }
 
 .quote .matt p {
@@ -131,12 +138,43 @@ img.matt {
     border-radius: 50%;
 }
 
+/* Last section with call to action and second signup button */
 
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#E5E7EB;
+    gap: 16px;
+
+}
+
+.actionleft {
+    background-color: #3882F6;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    min-width: 450px;
+    border-radius: 5%/15%;
+    padding: 32px;
+
+}
+
+.actionright {
+    flex-shrink: 0;
+}
 
 .button {
+    display: block;
+    max-width: fit-content;
+    font-size: 24px;
+    font-weight: bold;
     background-color: #3882F6;
-    border-radius: 10%;  
-    padding: 8px 16px;
+    border-radius: 5%/15%;  
+    padding: 16px 48px;
 }
 
 h1 {
@@ -162,9 +200,11 @@ p {
     color: #E5E7EB;
 }
 
+/* Footer with copyright */
+
 footer {
     background-color: #1F2937;
-    padding: 4px;
+    padding: 16px;
     text-align: center;
     color: #E5E7EB;
 }
