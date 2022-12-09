@@ -1,0 +1,159 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #202020;
+    color: white;
+}
+/* Fixed Bar Along Top w ^ To Return Top */
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 24px;
+    background-color: black;
+    padding: 5px 0px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0 3%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 34px;
+    background-image: url("./pictures/weights.JPG");
+    background-position: center;
+    background-size: 500px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    list-style: none;
+    text-align: right;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 8px;
+    margin: 0;
+    height: 200px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.signupleft {
+    background-color: #202020;
+    color: white;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.square {
+    text-align: center;
+    padding: 3%;
+    font-size: 18px;
+}
+
+.square img {
+    width: 50%;
+    border-radius: 10%;
+    background-color: lightsteelblue;
+    padding: 8px;
+}
+
+.quote-text {
+    padding: 5%;
+}
+
+.quote-text p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.matt p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.matt img {
+    border-radius: 50%;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actionleft {
+    background-color: #3882F6;
+    border-radius: 15%;
+    padding: 5%;
+    margin: 10% 5%;
+}
+
+footer {
+    margin-top: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.button {
+    display: block;
+    max-width: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 5%/15%;  
+    padding: 16px 48px;
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 100vw;
+}
+
+

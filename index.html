@@ -5,72 +5,78 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+
+        <!--------------------Style Sheet for Desktop-------------------------->
+        <link rel='stylesheet' media='screen and (min-width: 481px)' 
+                                href='styles.css' />
+
+        <!--------------------Style sheet for Mobile--------------------------->                               
+        <link rel="stylesheet" media='screen and (max-width: 480px)' 
+                                href="m-styles.css">
 
         <title>The Lifting School / Home</title>
+
         <meta name="description" content="Home landing page">
-        <meta name="keywords" content="online training, exercise program, strength, muscle, cardio, periodized">
+        <meta name="keywords" content="online training, exercise program,
+                                       strength, muscle, cardio, periodized">
     </head>
 
     <body>
 
-        <!-- Top section with header, signup button and main image -->
+<!-- Top section with header, signup button and main image -->
+        <div class="logo">
+            <a href="index.html">The Lifting School</a>
+            <a href="#top" style="font-size: 1.75rem">^</a>
+        </div>
+        <!------------------------------------------------------------->
         <div class="top">
-            <header>
-                <div class="logo"><a href="index.html">The Lifting School</a></div>
-    
-                <div class="links">
-                    <ul>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Testimonials</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-    
-            </header>
+            <ul class="menu">
+                <li><a class="menuItem" href="#blog">Blog</a></li>
+                <li><a class="menuItem" href="#testimonials">Testimonials</a></li>
+                <li><a class="menuItem" href="#about">About</a></li>
+                <li><a class="menuItem" href="#faq">FAQ</a></li>
+                <li><a class="menuItem" href="#contact">Contact</a></li>
+            </ul>
+        </div>
     
     
-            <div class="signup">
-    
-                <div class="signupleft">
-                    <h1 class="hero">
-                        Custom Online Training Programs
-                    </h1>
-                        <br>
-                    <p>
-                        <em>Cookie-cutters are for cookies</em>, not human beings with unique goals, body-types, histories and experience levels. 
-                        <br>
-                        <br>
-                        You deserve a custom-built, periodized exercise program created by a professional coach with over 15 years of experience.
-                    </p>
-                        <br>
-                    <a href="" class="button">
-                        Get Started
-                    </a>
-
-                </div>
-    
-                <div class="signupright">
-                    <img class="topimg" src="./pictures/weights.JPG"><img>
-                </div>
-    
+        <div class="signup">
+            <!------------------------------------------------------------->
+            <div class="signupleft">
+                <h1 class="hero">
+                    Custom Online Training Programs
+                </h1>
+                    <br>
+                <p>
+                    <em>Cookie-cutters are for cookies</em>, not human 
+                    beings with unique goals, body-types, histories 
+                    and experience levels. 
+                    <br>
+                    <br>
+                    You deserve a custom-built, periodized exercise 
+                    program created by a professional coach with over 
+                    15 years of experience.
+                </p>
+                    <br>
+                <a href="" class="button">
+                    Get Started
+                </a>
             </div>
         </div>
 
-        <!-- Second section with "programs for any goal" and flexed icons -->
+<!-- Second section with "programs for any goal" and flexed icons -->
 
         <div class="goals">
+            <!----------------------------------------------------------------->
             <br>
             <h1 class="programs">Programs For Any Goal</h1>
             <br>
-
+            <!----------------------------------------------------------------->
             <div class="squares">
 
                 <!--Increase Strength-->
                 <!-- Icon made my Gan Khoon Lay at freeicons.io -->
-                <div>
+                <div class="square">
                     <img src="./pictures/strength.png" class="imgsquare">
                     <h3 class="goal">
                         Increase Strength
@@ -80,7 +86,7 @@
 
                 <!--Build Muscle-->
                 <!-- Icon made my ColourCreatype at freeicons.io -->
-                <div>
+                <div class="square">
                     <img src="./pictures/flex.png" class="imgsquare">
                     <h3 class="goal">
                         Build Muscle
@@ -89,7 +95,7 @@
 
                 <!--Lose Fat-->
                 <!-- Icon made my dDara at freeicons.io -->
-                <div>
+                <div class="square">
                     <img src="./pictures/greyscale.png" class="imgsquare">
                     <h3 class="goal">
                         Lose Fat
@@ -98,43 +104,42 @@
 
                 <!--Improve Cardio-->
                 <!-- Icon made my ColourCreatype at freeicons.io -->
-                <div>
+                <div class="square">
                     <img src="./pictures/heart.png" class="imgsquare">
                     <h3 class="goal">
                         Improve Cardio
                     </h3>
                 </div>
-
             </div>
-
         </div>
 
-        <!-- Third section with italic quote/testimonial and picture -->
+<!-- Third section with italic quote/testimonial and picture -->
 
         <div class="quote">
-
-            <p>
-                I want to teach you how to lift weights correctly so you can minimize the risks
-                and get great results. 
-                <br>
-                <br>
-                Exercise shouldn't be about getting tired. 
-                <br>
-                The goal should be to get better.
-            </p>
-            
+            <!----------------------------------------------------------------->
+            <div class="quote-text">
+                <p>
+                    I want to teach you how to lift weights correctly 
+                    so you can minimize the risks and get great results. 
+                    <br>
+                    <br>
+                    Exercise shouldn't be about getting tired. 
+                    <br>
+                    <br>
+                    The goal should be to get better.
+                </p>
+            </div>  
+            <!----------------------------------------------------------------->
             <div class="matt">
                 <p class="matt">Coach Matt Talley</p> 
-
                 <img src="./pictures/matt.JPG" class="matt">
             </div>
-
         </div>
 
-        <!-- Last section with call to action and second signup button -->
+<!-- Last section with call to action and second signup button -->
 
         <div class="action">
-
+            <!----------------------------------------------------------------->
             <div class="actionleft">
                 <h2>
                     Are you ready to feel and move better? 
@@ -142,25 +147,24 @@
                 <p>
                     You already have the drive needed to succeed.
                     <br> 
+                    <br> 
                     Let a professional take care of the details.
                 </p>
             </div>
-
+            <!----------------------------------------------------------------->
             <div class="actionright">
                 <a href="" class="button">Get Started</a>
             </div>
-
         </div>
 
-        <!-- Footer with copyright -->
+<!-- Footer with copyright -->
 
         <footer>
             Copyright &copy 2022 The Lifting School LLC
             <br>
-            Icons made by Gan Khoon Lay, ColourCreatype & dDara from www.freeicons.io
+            Icons made by Gan Khoon Lay, ColourCreatype & 
+            dDara from www.freeicons.io
         </footer>
-
-
 
     </body>
 </html>
