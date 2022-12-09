@@ -1,35 +1,46 @@
 body {
-    font-family: Roboto, "Open Sans", sans-serif;
+    font-family: roboto, sans-serif;
     margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #202020;
+    color: white;
 }
 
 /* Top Section with header, signup button and main image */
 
-.top {
-    background-color: #202020;
-    color: #E5E7EB;
-    display: flex;
-    flex-shrink: 1;
-    flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-
 .logo {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     flex-shrink: 0;
+    padding: 1% 3%;
 }
 
-header {
+#return { /* Remove the ^ return key on desktop */
+    display: none;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    background-color: #202020;
+    color: #E5E7EB;
+    right: 0;
+    padding: 1% 3%;
+
+}
+
+.menu {
     display: flex;
-    font-size: 18px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 16px;
-
+    justify-content: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 0;
+    gap: 2rem;
 }
+
 
 .hero {
     font-size: 48px;
@@ -40,27 +51,28 @@ header {
 }
 
 .signup {
-    display: flex;
-    justify-content: space-between;
-    height: 350px;
-    margin: 64px;
-    gap: 32px;
-
+    margin-top: 2%;
+    background-image: url("./pictures/weights.JPG");
+    background-position: right;
 }
 
 .signupleft {
-    flex-shrink: 1;
-    min-width: 500px;
-    width: 600px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: #202020;
+    padding: 1% 3%;
 }
 
-.topimg {
-    display: flex;
-    flex-shrink: 1;
-    height: 300px;
-    border-radius: 10%;
-    opacity: 80%;
+.signupleft p {
+    font-size: 22px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0 3%;
 }
 
 /* Second section with "programs for any goal" and flexed icons */
@@ -86,17 +98,6 @@ header {
 
 .squares div {
     width: 300px;
-}
-
-.imgsquare {
-    border-style: solid;
-    border-radius: 10%;
-    border-color: #202020;
-    background-color: lightsteelblue;
-    padding: 8px;
-    height: 100px;
-
-    align-items: center;
 }
 
 /* Third section with italic quote/testimonial and picture */
@@ -175,11 +176,6 @@ img.matt {
     background-color: #3882F6;
     border-radius: 5%/15%;  
     padding: 16px 48px;
-}
-
-h1 {
-    padding: 0px;
-    margin: 0px;
 }
 
 ul {
