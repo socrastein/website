@@ -97,6 +97,47 @@ footer {
 /* ----------- ABOVE THIS IS STANDARD STYLE TEMPLATE -----------  */
 
 .main-container {
-    margin-top: 2%;
+    padding: 3% 10%;
+    gap: 24px;
+    max-width: 90dw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 10%;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+
+.portrait {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2d95ec;
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    width: 275px;
+}

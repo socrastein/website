@@ -39,7 +39,6 @@ h1, h2, h3 {
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 34px;
-    padding-right: 3%;
     background-image: url("./pictures/weights.JPG");
     background-position: right;
     background-size: contain;

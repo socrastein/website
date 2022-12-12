@@ -40,7 +40,6 @@ h1, h2, h3 {
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 34px;
-    padding-right: 3%;
     background-image: url("./pictures/weights.JPG");
     background-position: right;
     background-size: contain;
@@ -81,5 +80,48 @@ footer {
 /* ----------- ABOVE THIS IS STANDARD STYLE TEMPLATE -----------  */
 
 .main-container {
-    margin-top: 2%;
+    padding: 3%;
+    gap: 8px;
+    max-width: 90dw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.testimonials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portrait {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2d95ec;
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    width: 275px;
+}
+
+
+
