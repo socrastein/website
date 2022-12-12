@@ -8,7 +8,6 @@ body {
     background-color: #202020;
     color: white;
 }
-
 /* Fixed Bar Along Top w ^ To Return Top */
 .logo {
     display: flex;
@@ -69,6 +68,70 @@ h1, h2, h3 {
     font-size: 1rem;
 }
 
+.signupleft {
+    background-color: #202020;
+    color: white;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.square {
+    text-align: center;
+    padding: 3%;
+    font-size: 18px;
+}
+
+.square img {
+    width: 50%;
+    border-radius: 10%;
+    background-color: lightsteelblue;
+    padding: 8px;
+}
+
+.quote-text {
+    padding: 5%;
+}
+
+.quote-text p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.matt p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.matt img {
+    border-radius: 50%;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actionleft {
+    background-color: #3882F6;
+    border-radius: 15%;
+    padding: 5%;
+    margin: 10% 5%;
+}
+
 footer {
     margin-top: 20%;
     margin-right: 10%;
@@ -78,8 +141,24 @@ footer {
     font-size: 10px;
 }
 
-/* ----------- ABOVE THIS IS STANDARD STYLE TEMPLATE -----------  */
-
-.main-container {
-    margin-top: 2%;
+.button {
+    display: block;
+    max-width: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 5%/15%;  
+    padding: 16px 48px;
+    text-decoration: none;
+    color: white;
 }
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 100vw;
+}
+
+
