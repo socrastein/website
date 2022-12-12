@@ -54,6 +54,8 @@ body {
     margin-top: 2%;
     background-image: url("./pictures/weights.JPG");
     background-position: right;
+    background-repeat: no-repeat;
+
 }
 
 .signupleft {
@@ -80,24 +82,40 @@ h1, h2, h3 {
 .goals {
     margin-top: 32px;
     margin-bottom: 32px;
-    margin-left: 10%;
-    margin-right: 10%;
+
 }
 
 .programs, .goals {
     font-size: 48px;
     text-align: center;
-    color: #202020;
 }
 
 .squares {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: space-around;
+    gap: 24px;
     font-size: 24px;
+    padding: 1% 5%;
 }
 
-.squares div {
-    width: 300px;
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 1rem;
+    width: 20%;
+
+
+}
+
+.square img {
+    width: 50%;
+    background-color: lightsteelblue;
+    border-radius: 10%;
+    padding: 8px;
 }
 
 /* Third section with italic quote/testimonial and picture */
@@ -107,7 +125,6 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #202020;
     color:#E5E7EB;
 
     padding: 24px 15%;
@@ -144,6 +161,7 @@ img.matt {
 .action {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 64px;
     margin-bottom: 64px;
@@ -199,8 +217,10 @@ p {
 /* Footer with copyright */
 
 footer {
-    background-color: #1F2937;
-    padding: 16px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 1%;
     text-align: center;
-    color: #E5E7EB;
+    font-size: 12px;
 }
